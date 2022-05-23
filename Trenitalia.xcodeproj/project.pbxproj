@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23003E412766AECB00B16044 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23003E402766AECB00B16044 /* TicketModel.swift */; };
+		23367ED12768A2B800867405 /* DatePickerTextChangingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23367ED02768A2B800867405 /* DatePickerTextChangingExtension.swift */; };
+		23367ED42768AE3300867405 /* PassengersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23367ED32768AE3200867405 /* PassengersView.swift */; };
+		23395B2127635A2B006DB4FB /* TrenitaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23395B1127635A2A006DB4FB /* TrenitaliaApp.swift */; };
+		23395B2327635A2B006DB4FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23395B1227635A2A006DB4FB /* ContentView.swift */; };
+		23395B2527635A2B006DB4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23395B1327635A2B006DB4FB /* Assets.xcassets */; };
+		2348115227673DAE003B556F /* NewTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348115127673DAE003B556F /* NewTicketView.swift */; };
+		2348115527673EF2003B556F /* DetailedTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348115427673EF2003B556F /* DetailedTicketView.swift */; };
+		2348115C27674E8E003B556F /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348115B27674E8E003B556F /* NavigationBarExtension.swift */; };
+		2348115F27675A0B003B556F /* TrenitaliaColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2348115E27675A0B003B556F /* TrenitaliaColorExtension.swift */; };
+		23832F0B276A711300477CDA /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23832F0A276A711300477CDA /* BlurView.swift */; };
+		23832F0D276A7C7600477CDA /* EndEditingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23832F0C276A7C7600477CDA /* EndEditingExtension.swift */; };
+		23832F0F276A7F9100477CDA /* TicketContainerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23832F0E276A7F9100477CDA /* TicketContainerModel.swift */; };
+		23A359AE276909CD00816770 /* EmptyTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A359AD276909CD00816770 /* EmptyTicketView.swift */; };
+		23BBA5AE276A02DE00715A22 /* JourneyFiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BBA5AD276A02DE00715A22 /* JourneyFiltersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23003E402766AECB00B16044 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		23367ED02768A2B800867405 /* DatePickerTextChangingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTextChangingExtension.swift; sourceTree = "<group>"; };
+		23367ED32768AE3200867405 /* PassengersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengersView.swift; sourceTree = "<group>"; };
+		23395B1127635A2A006DB4FB /* TrenitaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrenitaliaApp.swift; sourceTree = "<group>"; };
+		23395B1227635A2A006DB4FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23395B1327635A2B006DB4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23395B1827635A2B006DB4FB /* Trenitalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trenitalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23395B2027635A2B006DB4FB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2348115127673DAE003B556F /* NewTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTicketView.swift; sourceTree = "<group>"; };
+		2348115427673EF2003B556F /* DetailedTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTicketView.swift; sourceTree = "<group>"; };
+		2348115B27674E8E003B556F /* NavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
+		2348115E27675A0B003B556F /* TrenitaliaColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrenitaliaColorExtension.swift; sourceTree = "<group>"; };
+		23832F0A276A711300477CDA /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		23832F0C276A7C7600477CDA /* EndEditingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndEditingExtension.swift; sourceTree = "<group>"; };
+		23832F0E276A7F9100477CDA /* TicketContainerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketContainerModel.swift; sourceTree = "<group>"; };
+		23A359AD276909CD00816770 /* EmptyTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTicketView.swift; sourceTree = "<group>"; };
+		23BBA5AC276A00ED00715A22 /* Trenitalia--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Trenitalia--iOS--Info.plist"; sourceTree = "<group>"; };
+		23BBA5AD276A02DE00715A22 /* JourneyFiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyFiltersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23395B1527635A2B006DB4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23395B0B27635A2A006DB4FB = {
+			isa = PBXGroup;
+			children = (
+				23BBA5AC276A00ED00715A22 /* Trenitalia--iOS--Info.plist */,
+				23395B1027635A2A006DB4FB /* Shared */,
+				23395B1F27635A2B006DB4FB /* macOS */,
+				23395B1927635A2B006DB4FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23395B1027635A2A006DB4FB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				23395B1127635A2A006DB4FB /* TrenitaliaApp.swift */,
+				2348115A27674E74003B556F /* Extensions */,
+				2348115827674E45003B556F /* Views */,
+				2348115727674E34003B556F /* Models */,
+				23395B1327635A2B006DB4FB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		23395B1927635A2B006DB4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23395B1827635A2B006DB4FB /* Trenitalia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23395B1F27635A2B006DB4FB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				23395B2027635A2B006DB4FB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2348115727674E34003B556F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23003E402766AECB00B16044 /* TicketModel.swift */,
+				23832F0E276A7F9100477CDA /* TicketContainerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2348115827674E45003B556F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23395B1227635A2A006DB4FB /* ContentView.swift */,
+				23832F0A276A711300477CDA /* BlurView.swift */,
+				2348115127673DAE003B556F /* NewTicketView.swift */,
+				23BBA5AD276A02DE00715A22 /* JourneyFiltersView.swift */,
+				23A359AD276909CD00816770 /* EmptyTicketView.swift */,
+				2348115427673EF2003B556F /* DetailedTicketView.swift */,
+				23367ED32768AE3200867405 /* PassengersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2348115A27674E74003B556F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2348115B27674E8E003B556F /* NavigationBarExtension.swift */,
+				2348115E27675A0B003B556F /* TrenitaliaColorExtension.swift */,
+				23367ED02768A2B800867405 /* DatePickerTextChangingExtension.swift */,
+				23832F0C276A7C7600477CDA /* EndEditingExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23395B1727635A2B006DB4FB /* Trenitalia (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23395B2927635A2B006DB4FB /* Build configuration list for PBXNativeTarget "Trenitalia (iOS)" */;
+			buildPhases = (
+				23395B1427635A2B006DB4FB /* Sources */,
+				23395B1527635A2B006DB4FB /* Frameworks */,
+				23395B1627635A2B006DB4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trenitalia (iOS)";
+			productName = "Trenitalia (iOS)";
+			productReference = 23395B1827635A2B006DB4FB /* Trenitalia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23395B0C27635A2A006DB4FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					23395B1727635A2B006DB4FB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 23395B0F27635A2A006DB4FB /* Build configuration list for PBXProject "Trenitalia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23395B0B27635A2A006DB4FB;
+			productRefGroup = 23395B1927635A2B006DB4FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23395B1727635A2B006DB4FB /* Trenitalia (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23395B1627635A2B006DB4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23395B2527635A2B006DB4FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23395B1427635A2B006DB4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23832F0D276A7C7600477CDA /* EndEditingExtension.swift in Sources */,
+				23395B2327635A2B006DB4FB /* ContentView.swift in Sources */,
+				23A359AE276909CD00816770 /* EmptyTicketView.swift in Sources */,
+				2348115C27674E8E003B556F /* NavigationBarExtension.swift in Sources */,
+				23BBA5AE276A02DE00715A22 /* JourneyFiltersView.swift in Sources */,
+				2348115F27675A0B003B556F /* TrenitaliaColorExtension.swift in Sources */,
+				2348115527673EF2003B556F /* DetailedTicketView.swift in Sources */,
+				23395B2127635A2B006DB4FB /* TrenitaliaApp.swift in Sources */,
+				23367ED12768A2B800867405 /* DatePickerTextChangingExtension.swift in Sources */,
+				23832F0F276A7F9100477CDA /* TicketContainerModel.swift in Sources */,
+				23367ED42768AE3300867405 /* PassengersView.swift in Sources */,
+				23832F0B276A711300477CDA /* BlurView.swift in Sources */,
+				23003E412766AECB00B16044 /* TicketModel.swift in Sources */,
+				2348115227673DAE003B556F /* NewTicketView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23395B2727635A2B006DB4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23395B2827635A2B006DB4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23395B2A27635A2B006DB4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F3PD24AD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trenitalia--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GiuseppeFalso.Trenitalia;
+				PRODUCT_NAME = Trenitalia;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		23395B2B27635A2B006DB4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38F3PD24AD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trenitalia--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GiuseppeFalso.Trenitalia;
+				PRODUCT_NAME = Trenitalia;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23395B0F27635A2A006DB4FB /* Build configuration list for PBXProject "Trenitalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23395B2727635A2B006DB4FB /* Debug */,
+				23395B2827635A2B006DB4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23395B2927635A2B006DB4FB /* Build configuration list for PBXNativeTarget "Trenitalia (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23395B2A27635A2B006DB4FB /* Debug */,
+				23395B2B27635A2B006DB4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23395B0C27635A2A006DB4FB /* Project object */;
+}
